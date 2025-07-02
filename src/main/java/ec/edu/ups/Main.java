@@ -1,6 +1,8 @@
 package ec.edu.ups;
 
+import ec.edu.ups.Controller.ContactoController;
 import ec.edu.ups.Controller.Sets;
+import ec.edu.ups.Models.Contacto;
 
 import java.util.Set;
 
@@ -13,6 +15,8 @@ public class Main {
         runTreeSet(sets);
         runTreeSetConComparador(sets);
         runTreeSetConComparadorInverso(sets);
+        ContactoController contactoController = runTreeContacto();
+
     }
     public static void runHashSet(Sets sets) {
         Set<String> ejemploHashSet = sets.construirHashSet();
@@ -54,4 +58,10 @@ public class Main {
             System.out.println(elemento);
         }
     }
+    public static ContactoController runTreeContacto() {
+        System.out.println("------ Contacto orden alfabetico apellido - nombre -----");
+        return new ContactoController();
+
+    }
+
 }
