@@ -47,3 +47,6 @@ Para ejecutar el proyecto:
 ## 🧑‍💻 Ejemplo de Salida 2
 
 ![Image](https://github.com/user-attachments/assets/503d2a32-2fe7-4851-af9c-928cc4da33ce)
+
+## 🧑‍💻 Ejemplo de Salida 3
+![Image](https://github.com/user-attachments/assets/a4586bc2-bc25-477d-b9e4-9e2d16bb816e)

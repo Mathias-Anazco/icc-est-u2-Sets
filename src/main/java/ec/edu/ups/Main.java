@@ -1,6 +1,7 @@
 package ec.edu.ups;
 
 import ec.edu.ups.Controller.ContactoController;
+import ec.edu.ups.Controller.Ejercicios;
 import ec.edu.ups.Controller.Sets;
 import ec.edu.ups.Models.Contacto;
 
@@ -16,6 +17,7 @@ public class Main {
         runTreeSetConComparador(sets);
         runTreeSetConComparadorInverso(sets);
         ContactoController contactoController = runTreeContacto();
+        Ejercicios ejercicios = new Ejercicios();
 
     }
     public static void runHashSet(Sets sets) {
@@ -62,6 +64,10 @@ public class Main {
         System.out.println("------ Contacto orden alfabetico apellido - nombre -----");
         return new ContactoController();
 
+    }
+    public static Ejercicios tiempoDuplicados() {
+        System.out.println("------ Número de duplicados -----");
+        return new Ejercicios();
     }
 
 }
